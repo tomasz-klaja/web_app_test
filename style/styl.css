@@ -6,3 +6,34 @@ body {
 .tomek {
     color: red;
 }
+
+.jw {
+    animation: kul 2s infinite linear;
+}
+
+@keyframes kul {
+    0% {
+        color: crimson;
+    }
+
+    20% {
+        color: skyblue;
+    }
+
+    40% {
+        color: orange;
+    }
+
+    60% {
+        color: aquamarine;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    100% {
+        color: crimson;
+    }
+
+}
